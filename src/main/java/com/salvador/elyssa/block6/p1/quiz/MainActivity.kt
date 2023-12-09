@@ -22,4 +22,13 @@ class MainActivity : AppCompatActivity() {
         authorsRecyclerView.adapter = AuthorsAdapter(getAuthors())
     }
 
+    private fun getFeaturedBooks(): List<Book> {
+        // TODO: Return a list of featured books
+        return emptyList()
+    }
+
+    private fun getAuthors(): List<Author> {
+        // TODO: Return a list of authors
+        return emptyList()
+    }
 }
