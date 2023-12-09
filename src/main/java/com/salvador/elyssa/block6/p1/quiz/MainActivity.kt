@@ -26,9 +26,4 @@ class MainActivity : AppCompatActivity() {
         // TODO: Return a list of featured books
         return emptyList()
     }
-
-    private fun getAuthors(): List<Author> {
-        // TODO: Return a list of authors
-        return emptyList()
-    }
 }
